@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="plugins/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="plugins/codemirror/theme/monokai.css">
+    <link rel="stylesheet" href="plugins/codemirror/theme/dracula.css">
+    <link rel="stylesheet" href="plugins/codemirror/theme/ayu-dark.css">
+    <link rel="stylesheet" href="plugins/codemirror/theme/ayu-dark.css">
+    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="plugins/codemirror/lib/codemirror.js"></script>
+    <script src="plugins/codemirror/addon/edit/closetag.js"></script>
+    <script src="plugins/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="plugins/codemirror/addon/edit/closebrackets.js"></script>
+    <script src="plugins/codemirror/addon/edit/continuelist.js"></script>
+    <script src="plugins/codemirror/addon/edit/matchtags.js"></script>
+    <script src="plugins/codemirror/addon/fold/xml-fold.js"></script>
+    <script src="plugins/codemirror/addon/wrap/hardwrap.js"></script>
+    <script src="plugins/codemirror/addon/selection/active-line.js"></script>
+    <script src="plugins/codemirror/mode/javascript/javascript.js"></script>
+    <script src="plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="plugins/codemirror/mode/xml/xml.js"></script>
+    <script src="plugins/codemirror/mode/htmlembedded/htmlembedded.js"></script>
+    <script src="plugins/codemirror/mode/xml/xml.js"></script>
+    <script src="plugins/codemirror/mode/css/css.js"></script>
+    <title>Seven Live Code Editor</title>
+</head>
+
+<body>
+    <!----Desktop and laptop header-section-->
+    <header class="header">
+        <div class="logo"><a href="index.html"><i class="fas fa-code"></i>SEVEN LIVE CODE EDITOR</a></div>
+        <nav class="navbar">
+            <li><a><i class="fas fa-play"></i>Run</a></li>
+            <li><a href="#"><i class="fas fa-cloud-download-alt"></i>Save</a></li>
+            <li><a href="#"><i class="fas fa-comment-alt"></i>Collaborate</a></li>
+        </nav>
+        <div class="settings">
+            <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i>ChangeView</a></li>
+            <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i>Settings</a></li>
+        </div>
+    </header>
+    <!----Mobile and tablet-header-section-->
+    <header class="header-mobile">
+        <div class="logo"><a href="index.html"><i class="fas fa-code"></i></a></div>
+        <nav class="navbar">
+            <li><a><i class="fas fa-play"></i></a></li>
+            <li><a href="#"><i class="fas fa-cloud-download-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-comment-alt"></i></a></li>
+        </nav>
+        <div class="settings">
+            <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i></a></li>
+        </div>
+    </header>
+    <div class="main-section">
+        <!----code-playgrounds-->
+        <div class="playground">
+            <div class="title">
+                <img src="img/html.png" alt="">
+            </div>
+            <textarea name="html-editor" id="html-editor" placeholder="/*code goes here*/" style="resize: both;">
+            </textarea>
+            <div class="title">
+                <img src="img/css3.png" alt="">
+            </div>
+            <textarea name="css-editor" id="css-editor" placeholder="/*code goes here*/">
+            </textarea>
+            <div class="title">
+                <img src="img/Js.png" alt="">
+            </div>
+            <textarea name="js-editor" id="js-editor" placeholder="/*code goes here*/">
+            </textarea>
+
+        </div>
+        <div class="preview">
+            <iframe id=preview></iframe>
+        </div>
+    </div>
+    <header class="footer">
+        <div class="logo"><a href="index.html"><i class="fa fa-eject"></i>Console</a></div>
+    </header>
+    <!--my custom  JavaScript files--->
+    <script src="app.js"></script>
+</body>
+
+</html>
