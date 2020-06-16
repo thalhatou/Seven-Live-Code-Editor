@@ -33,11 +33,13 @@ All contributors names will be added here
 5. Submit a pull request :D
 
 ## demo
-check it out live ([Desktop Preview](img/Demo.png))
 
-check it out live ([Mobile Preview](img/mobile.png))
+check it out live  ([link](https://codemirror.net/))
 
-check it out live ([link](https://codemirror.net/))
+  ([Desktop Preview](img/Demo.png)
+
+ ([Mobile Preview](img/mobile.png)
+
 
 
 #### Resources used
