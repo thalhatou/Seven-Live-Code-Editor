@@ -55,6 +55,7 @@ JQuery 1.10.3 ([link](http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-
 
 #### Inspiration
 Codepen  ([link](http://codepen.io/))
+
 JSFiddle ([link](http://jsfiddle.net/))
 
 ## License
