@@ -34,7 +34,9 @@ All contributors names will be added here
 
 ## demo
 check it out live ([Desktop Preview](img/Demo.png))
-check it out live ([Desktop Preview](img/mobile.png))
+
+check it out live ([Mobile Preview](img/mobile.png))
+
 check it out live ([link](https://codemirror.net/))
 
 
