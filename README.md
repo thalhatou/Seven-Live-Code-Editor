@@ -33,11 +33,9 @@ All contributors names will be added here
 5. Submit a pull request :D
 
 ## demo
-
 check it out live  ([link](https://sevencode.netlify.app/))
 Desktop View   ![Preview of tablet-mode](img/Demo.png)
-
- Mobile and Tablet View ![Preview of tablet-mode](img/mobile.png)
+Mobile and Tablet View ![Preview of tablet-mode](img/mobile.png)
 
 
 
