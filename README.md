@@ -35,15 +35,16 @@ All contributors names will be added here
 ## demo
 
 check it out live  ([link](https://sevencode.netlify.app/))
-![Preview of tablet-mode](img/Demo.png)
+Desktop View   ![Preview of tablet-mode](img/Demo.png)
 
-![Preview of tablet-mode](img/mobile.png)
-
-
+ Mobile and Tablet View ![Preview of tablet-mode](img/mobile.png)
 
 
 
-#### Resources used
+
+
+### Resources used
+
 codeMirror ([link](https://codemirror.net/))
 
 Google fonts ([link](https://codemirror.net/))
