@@ -34,7 +34,7 @@ All contributors names will be added here
 
 ## demo
 
-check it out live  ([link](https://codemirror.net/))
+check it out live  ([link](https://sevencode.netlify.app/))
 
   ([Desktop Preview](img/Demo.png)
 
