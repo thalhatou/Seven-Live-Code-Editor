@@ -35,10 +35,11 @@ All contributors names will be added here
 ## demo
 
 check it out live  ([link](https://sevencode.netlify.app/))
+![Preview of tablet-mode](img/Demo.png)
 
-  ([Desktop Preview](img/Demo.png)
+![Preview of tablet-mode](img/mobile.png)
 
- ([Mobile Preview](img/mobile.png)
+
 
 
 
