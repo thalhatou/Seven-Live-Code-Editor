@@ -13,19 +13,19 @@ An open source Online code editor playground where you can do  demo and demostra
 * Isolated iFrame sandbox etc
 
 ## Features to be added 
-*Realtime collaboration
-*Authentication
-*Github support
-*Splitter around the various sections
-*Javascript console.
-*ChangeView functionalities
-*Full Screen Preview of the results
-*You can also suggest a new feature 
+* Realtime collaboration
+* Authentication
+* Github support
+* Splitter around the various sections
+* Javascript console.
+* ChangeView functionalities
+* Full Screen Preview of the results
+* You can also suggest a new feature 
 
 ## Contributing
 
 All contributors names will be added here
-
+## How to contribute
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
@@ -33,7 +33,9 @@ All contributors names will be added here
 5. Submit a pull request :D
 
 ## demo
-check it out ([link](https://codemirror.net/))
+check it out live ([Desktop Preview](img/Demo.png))
+check it out live ([Desktop Preview](img/mobile.png))
+check it out live ([link](https://codemirror.net/))
 
 
 #### Resources used
