@@ -1,168 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
 
 /*custom scrollbar styling */
 ::-webkit-scrollbar {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    border-radius: 20px;
-    background: rgb(52, 59, 59);
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  background: rgb(52, 59, 59);
 }
 
 ::-webkit-scrollbar-corner {
-    cursor: pointer;
-    display: none;
+  cursor: pointer;
+  display: none;
 }
 
 .header-mobile {
-    display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
-    cursor: pointer;
-    border-radius: 5px;
-    background: rgba(8, 216, 216, 0.404);
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(8, 216, 216, 0.404);
 }
 
-
 body {
-    background: #333;
-    font-family: 'Roboto', sans-serif;
+  background: #333;
+  font-family: "Roboto", sans-serif;
 }
 
 .fa-code {
-    color: rgba(8, 216, 216, 0.533);
-    font-size: 2rem;
-
+  color: rgba(8, 216, 216, 0.533);
+  font-size: 2rem;
 }
 
 .logo a {
-    text-align: center;
-    color: rgba(8, 216, 216, 0.533);
-    font-size: 1.5rem;
-    font-weight: 100;
-
+  text-align: center;
+  color: rgba(8, 216, 216, 0.533);
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 nav .fas {
-    color: rgba(8, 216, 216, 0.986);
+  color: rgba(8, 216, 216, 0.986);
 }
 
 nav .fas:hover {
-    color: rgba(255, 255, 255, 0.986);
+  color: rgba(255, 255, 255, 0.986);
 }
 
 .settings .fa {
-    color: rgba(8, 216, 216, 0.986);
+  color: rgba(8, 216, 216, 0.986);
 }
 
 .header {
-    height: 10vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-around;
-    background-color: #333;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  background-color: #333;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgba(5, 192, 199, 0.699);
-
+  color: rgba(5, 192, 199, 0.699);
 }
 
 li {
-
-    padding: 20px;
-    display: inline;
+  padding: 20px;
+  display: inline;
 }
 
 .fa,
 .fas {
-    padding: 10px;
+  padding: 10px;
 }
 
 .main-section {
-    display: grid;
-    grid-template-columns: 60% 40%;
-
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
 .playground {
-    background-color: #444;
-    flex-direction: column;
+  background-color: #444;
+  flex-direction: column;
 }
 
 .preview {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 textarea {
-    border: 1px solid black;
-    background-color: #333;
-    resize: none;
-    outline: none;
-    color: rgb(56, 133, 62);
-    padding: 10px;
-    width: 950px;
-    height: 300px;
+  border: 1px solid black;
+  background-color: #333;
+  resize: none;
+  outline: none;
+  color: rgb(56, 133, 62);
+  padding: 10px;
+  width: 950px;
+  height: 300px;
 }
 
 .title {
-    background-color: #1a1d21;
-    padding: 0px 10px;
-
+  background-color: #1a1d21;
+  padding: 0px 10px;
 }
 
 .title img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 iframe {
-    background-color: #fff;
-    height: 100%;
-    width: 100%;
+  background-color: #fff;
+  border: none;
+  height: 100%;
+  width: 100%;
 }
 
 .footer {
-    height: 8vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-around;
-    background-color: #333;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  background-color: #333;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 960px) {
-    .header {
-        display: none;
-    }
+  .header {
+    display: none;
+  }
 
-    .header-mobile {
-        height: 10vh;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: #333;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    }
-
-
+  .header-mobile {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
 }
